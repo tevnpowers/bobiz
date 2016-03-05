@@ -1,28 +1,30 @@
-import express from 'express'
-import bodyParser from 'body-parser'
-import cookieParser from 'cookie-parser'
-import logger from './config/logger'
-let env = process.env.NODE_ENV || 'development'
-import global from './config/config'
-let config = './config/config'[env]
-import util from './util'
+'use strict';
 
-logger.info('environment: ' + env)
+var express = require('express');
+var bodyParser = require('body-parser');
+var cookieParser = require('cookie-parser');
+var logger = './config/logger';
+var env = process.env.NODE_ENV || 'development';
+var global = require('./config/config');
+var config = require('./config/config')[env];
+var util = require('util');
 
-let app = express()
+logger.info('environment: ' + env);
+
+var app = express();
 
 // general app configuration
-app.use(util.allowCrossDomain)
-app.use(cookieParser())
-app.use(bodyParser.json())
+app.use(util.allowCrossDomain);
+app.use(cookieParser());
+app.use(bodyParser.json());
 
-logger.info('allowing origin: ' + JSON.stringify(global.corsAllowOrigin))
+logger.info('allowing origin: ' + JSON.stringify(global.corsAllowOrigin));
 
-require('./config/routes')(app)
+require('./config/routes')(app);
 
 app.listen(config.port, function() {
-  logger.log('info', 'environment: ' + env)
-  logger.log('info', 'server started on port ' + config.port)
-})
+  logger.log('info', 'environment: ' + env);
+  logger.log('info', 'server started on port ' + config.port);
+});
 
-module.exports = app
+module.exports = app;
