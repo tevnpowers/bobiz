@@ -9,7 +9,7 @@ var global = require('./config/config');
 var config = require('./config/config')[env];
 var util = require('util');
 
-logger.info('environment: ' + env);
+// logger.info('environment: ' + env);
 
 var app = express();
 
