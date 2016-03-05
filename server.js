@@ -22,6 +22,9 @@ logger.info('allowing origin: ' + JSON.stringify(global.corsAllowOrigin));
 
 require('./config/routes')(app);
 
+// mysql connection file, comment out if mysql is not set up
+require('./config/mysql.js');
+
 app.listen(config.port, function() {
   logger.log('info', 'environment: ' + env);
   logger.log('info', 'server started on port ' + config.port);
