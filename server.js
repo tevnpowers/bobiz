@@ -3,13 +3,13 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
-var logger = './config/logger';
+var logger = require('./config/logger');
 var env = process.env.NODE_ENV || 'development';
 var global = require('./config/config');
 var config = require('./config/config')[env];
-var util = require('util');
+var util = require('./util');
 
-// logger.info('environment: ' + env);
+logger.info('environment: ' + env);
 
 var app = express();
 
