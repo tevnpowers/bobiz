@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/jonmadison/bobiz#readme",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "qs": "^6.1.0"
   },
   "devDependencies": {
     "must": "^0.13.1",
