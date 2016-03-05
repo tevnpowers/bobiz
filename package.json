@@ -1,0 +1,26 @@
+{
+  "name": "bobiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jonmadison/bobiz.git"
+  },
+  "author": "Jon Madison <jon@tfftech.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonmadison/bobiz/issues"
+  },
+  "homepage": "https://github.com/jonmadison/bobiz#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "must": "^0.13.1",
+    "supertest": "^1.2.0"
+  }
+}
