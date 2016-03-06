@@ -2,7 +2,7 @@
 
 var global = require('./config');
 var posts = require('../app/controllers/businesses');
-var reviews = require('../app/controllers/reviews');
+// var reviews = require('../app/controllers/reviews');
 
 module.exports = function(app) {
   app.get(global.apiPrefix + '/businesses',
