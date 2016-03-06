@@ -1,9 +1,12 @@
+var env = process.env.NODE_ENV || 'development';
 var mysql      = require('mysql');
+var config = require('./config/config')[env];
+
 var connection = mysql.createConnection({
-  host     : 'us-cdbr-iron-east-03.cleardb.net',
-  user     : process.env.BOBIZ_USER,
-  password : process.env.BOBIZ_PASS,
-  database : process.env.BOBIZ_DB
+  host     : config.mysql.host,
+  user     : config.mysql.user,
+  password : config.mysql.password,
+  database : config.mysql.database
 });
 
 connection.connect(function(err) {

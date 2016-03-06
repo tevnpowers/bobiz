@@ -21,6 +21,12 @@ module.exports = {
   },
   production: {
     port: process.env.PORT || 5000,
-    name: 'bobiz'
+    name: 'bobiz',
+    mysql: {
+      host     : 'us-cdbr-iron-east-03.cleardb.net',
+      user     : process.env.BOBIZ_USER,
+      password : process.env.BOBIZ_PASS,
+      database : process.env.BOBIZ_DB
+    }
   }
 };
