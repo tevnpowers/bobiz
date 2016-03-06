@@ -3,10 +3,10 @@ module.exports = {
   apiPrefix: '/api',
   development: {
     mysql: {
-      host     : 'localhost',
+      host     : 'us-cdbr-iron-east-03.cleardb.net',
       user     : process.env.BOBIZ_USER,
       password : process.env.BOBIZ_PASS,
-      database : 'commonwealth'
+      database : process.env.BOBIZ_DB
     },
     port: 5008,
     app: {
