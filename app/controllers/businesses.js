@@ -15,27 +15,27 @@ exports.index = {
 };
 
 exports.findOne = {
-  json: function findOneJson(req,res) {
-    console.log("looking for: " + req.params.id)
-    var result = []
-    Business.findById(req.params.id,function(err,biz){
-      if(err) {
-        console.log("error:" + err)
-        return res.status(500).send(err)
-      }
+    json: function findOneJson(req,res) {
+        console.log("looking for: " + req.params.id);
+        Business.findById(req.params.id,function(err, biz) {
+            if(err) {
+                console.log("error:" + err);
+                return res.status(500).send(err);
+            }
 
-      if(biz == undefined) {
-        return res.status(404).send({"error":"not found."})
-      }
-
-      //need to calculate aggregate of all user reviews to generate a
-      //rating before sending the data out
-      //do a find on all reviews whose Business._id = biz._id
-      //then a .reduce function to aggregate a final Good/Bad
-
-      res.status(200).send(biz)
-    })
-  }
+            if (biz === undefined) {
+                return res.status(404).send({"error":"not found."});
+            }
+            console.log(JSON.stringify(biz.toObject()));
+            // var bizObj = Business(biz.toObject());
+            biz.toObject().ratingAggregate.then(function(rating) {
+                var result = biz.toObject();
+                result.ratingAggregate = rating;
+                res.status(200).send(JSON.stringify(result));
+                console.log("got rating: " + rating);
+            });
+        });
+    }
 }
 
 
