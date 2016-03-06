@@ -28,6 +28,38 @@ var BusinessSchema = new Schema({
     reviews: [{ type: Schema.ObjectId, ref: 'Review' }]
 });
 
+// BusinessSchema.virtual('ratingAggregate').get(() => { return { something: "another" }});
+// BusinessSchema.virtual('ratingAggregate').get(() => new Promise((resolve,reject) => {
+//     return resolve(5);
+// }));
+
+BusinessSchema.virtual('ratingAggregate').get(() => new Promise((resolve, reject) => {
+   Review.find({ business: this.id }, function(err, reviews) {
+        if(err) {
+            console.log("error:" + err);
+            return res.status(500).send(err);
+        }
+
+        console.log('aggregating ' + reviews.length + ' reviews for ' + this.name);
+        var reviewValues = [];
+        var totalRating = 0;
+        for(var i = 0; i < reviews.length; i++) {
+            totalRating += reviews[i].rating === 'Good' ? 1 : 0;
+        }
+
+        console.log('total rating: ' + totalRating);
+
+        var aggregateRating = totalRating > (reviews.length / 2) ? 'Good' : 'Bad';
+        this._ratingAggregate =  aggregateRating;
+        return resolve(aggregateRating);
+    });
+   return 5;
+}));
+
+BusinessSchema.set('toObject', {
+  getters: true
+});
+
 BusinessSchema.statics.addReview = function(biz, user, review, cb) {
     // var User = mongoose.model('User');
     // var userObject = new User(user);
@@ -43,12 +75,12 @@ BusinessSchema.statics.addReview = function(biz, user, review, cb) {
 
     console.log('ADDREVIEW BIZ: ' + biz.name);
 
-    reviewObject.save(function(err,doc) {
+    reviewObject.save(function(err, doc) {
         if(err) {
             logger.error('addReview: error while adding review: ' + err);
             return cb(err,null);
         }
-        return cb(null,reviewObject);
+        return cb(null, reviewObject);
     })
 };
 
