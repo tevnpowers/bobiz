@@ -1,6 +1,6 @@
 var env = process.env.NODE_ENV || 'development';
 var mysql      = require('mysql');
-var config = require('./config/config')[env];
+var config = require('./config')[env];
 
 var connection = mysql.createConnection({
   host     : config.mysql.host,
