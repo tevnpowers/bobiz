@@ -62,7 +62,6 @@ var ReviewSchema = new Schema({
     user  : {type: Schema.ObjectId, ref: 'User'},
     business  : {type: Schema.ObjectId, ref: 'Business'},
     tags  : [ TagSchema ],
-    user  : {type: Schema.ObjectId, ref: 'User'},
     rating: String
 })
 
