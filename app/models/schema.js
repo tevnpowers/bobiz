@@ -24,7 +24,8 @@ var BusinessSchema = new Schema({
     daysOpen: String,
     description: String,
     email: String,
-    status: String //A = Active, BO = Black Owned, BL = Blacklisted
+    status: String, //A = Active, BO = Black Owned, BL = Blacklisted
+    reviews: [{ type: Schema.ObjectId, ref: 'Review' }]
 });
 
 BusinessSchema.statics.addReview = function(biz, user, review, cb) {
@@ -58,10 +59,10 @@ var TagSchema = new Schema({
 
 var ReviewSchema = new Schema({
     timestamp: { type: Date, default: Date.now },
-    user  : {type: Number, ref: 'User'},
-    business  : {type: Number, ref: 'Business'},
+    user  : {type: Schema.ObjectId, ref: 'User'},
+    business  : {type: Schema.ObjectId, ref: 'Business'},
     tags  : [ TagSchema ],
-    user  : {type: Number, ref: 'User'},
+    user  : {type: Schema.ObjectId, ref: 'User'},
     rating: String
 })
 
