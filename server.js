@@ -1,6 +1,7 @@
 'use strict';
 
 var express = require('express');
+var path = require('path');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
 var logger = require('./config/logger');
@@ -37,6 +38,8 @@ var app = express();
 app.use(util.allowCrossDomain);
 app.use(cookieParser());
 app.use(bodyParser.json());
+
+app.use(express.static(path.join(__dirname, "public")));
 
 logger.info('allowing origin: ' + JSON.stringify(global.corsAllowOrigin));
 
