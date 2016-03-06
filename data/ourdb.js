@@ -1,6 +1,99 @@
-[
+exports.users = [
+  {
+    "firstname": "Cecelia",
+    "lastname": "Wood",
+    "email": "ceceliawood@comtrak.com",
+    "username": "ad"
+  },
+  {
+    "firstname": "Rosanna",
+    "lastname": "Gates",
+    "email": "rosannagates@comtrak.com",
+    "username": "cillum"
+  },
+  {
+    "firstname": "Marylou",
+    "lastname": "Bullock",
+    "email": "maryloubullock@comtrak.com",
+    "username": "ipsum"
+  },
+  {
+    "firstname": "Carmen",
+    "lastname": "Mayer",
+    "email": "carmenmayer@comtrak.com",
+    "username": "laborum"
+  },
+  {
+    "firstname": "Bradley",
+    "lastname": "Fitzgerald",
+    "email": "bradleyfitzgerald@comtrak.com",
+    "username": "sit"
+  },
+  {
+    "firstname": "Murphy",
+    "lastname": "Moses",
+    "email": "murphymoses@comtrak.com",
+    "username": "consequat"
+  },
+  {
+    "firstname": "Romero",
+    "lastname": "Fitzpatrick",
+    "email": "romerofitzpatrick@comtrak.com",
+    "username": "pariatur"
+  },
+  {
+    "firstname": "Nancy",
+    "lastname": "Clay",
+    "email": "nancyclay@comtrak.com",
+    "username": "esse"
+  },
+  {
+    "firstname": "Blanchard",
+    "lastname": "Nash",
+    "email": "blanchardnash@comtrak.com",
+    "username": "enim"
+  },
+  {
+    "firstname": "George",
+    "lastname": "Long",
+    "email": "georgelong@comtrak.com",
+    "username": "pariatur"
+  },
+  {
+    "firstname": "Henderson",
+    "lastname": "Wynn",
+    "email": "hendersonwynn@comtrak.com",
+    "username": "nulla"
+  },
+  {
+    "firstname": "Lamb",
+    "lastname": "Schultz",
+    "email": "lambschultz@comtrak.com",
+    "username": "fugiat"
+  },
+  {
+    "firstname": "Guthrie",
+    "lastname": "Hull",
+    "email": "guthriehull@comtrak.com",
+    "username": "est"
+  },
+  {
+    "firstname": "Isabella",
+    "lastname": "Myers",
+    "email": "isabellamyers@comtrak.com",
+    "username": "exercitation"
+  },
+  {
+    "firstname": "Marshall",
+    "lastname": "Mcconnell",
+    "email": "marshallmcconnell@comtrak.com",
+    "username": "tempor"
+  }
+];
+
+exports.businesses = [
 	{
-		"body": "GENERAL MICROSYSTEMS INC",
+		"name": "GENERAL MICROSYSTEMS INC",
 		"address": "3220 118TH SESUITE 100\nBellevueWA98005",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.GMI.COM",
@@ -14,7 +107,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Quality Discount Supplies & Service",
+		"name": "Quality Discount Supplies & Service",
 		"address": "PO Box 64520\nUniversity PlaceWA98464",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.QUALITYDISCOUNTSUPPLIES.COM",
@@ -28,7 +121,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "DARBY JANITORIAL SERVICES",
+		"name": "DARBY JANITORIAL SERVICES",
 		"address": "PO BOX 58431\nRentonWA98058",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -42,7 +135,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "PSYCHOLOGICAL CONSULTANTS INC.",
+		"name": "PSYCHOLOGICAL CONSULTANTS INC.",
 		"address": "2401 ALEXANDER AVENUE\nRichlandWA99354",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -56,7 +149,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "EBONY OFFICE INTERIORS LLC",
+		"name": "EBONY OFFICE INTERIORS LLC",
 		"address": "PO BOX 80386\nSeattleWA98108",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.EBONYOFFICE.COM",
@@ -70,7 +163,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "C W S AWARDS INC",
+		"name": "C W S AWARDS INC",
 		"address": "P O BOX 22361\nSeattleWA98122",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.CWSAWARDSINC.COM",
@@ -84,7 +177,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "THE SNOWDEN COMPANY INC",
+		"name": "THE SNOWDEN COMPANY INC",
 		"address": "P O BOX 18886\nSeattleWA98118",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -98,7 +191,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "LUE RACHELLE BRIM DONAHOE & ASSOCIATES",
+		"name": "LUE RACHELLE BRIM DONAHOE & ASSOCIATES",
 		"address": "7611 S 115TH ST\nSeattleWA98178",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.BRIMDONAHUEASSOCIATES.COM",
@@ -112,7 +205,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ENERGY SAVERS INC",
+		"name": "ENERGY SAVERS INC",
 		"address": "9040 116TH AVENUE NE\nKirklandWA98033",
 		"hours": "M-F 9a-5p",
 		"social": "ENERGYSAVERSINC.NET",
@@ -126,7 +219,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "EXECUTIVE DIVERSITY SERVICES INC",
+		"name": "EXECUTIVE DIVERSITY SERVICES INC",
 		"address": "675 SOUTH LANESUITE 305\nSeattleWA98104",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.EXECUTIVEDIVERSITY.COM",
@@ -140,7 +233,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "KUNIYUKI AND MOFFITT",
+		"name": "KUNIYUKI AND MOFFITT",
 		"address": "1833 N 105TH STSUITE 305\nSeattleWA98133",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.PACASSOC.COM",
@@ -154,7 +247,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "GIRMA HAILE LEUL",
+		"name": "GIRMA HAILE LEUL",
 		"address": "810 THIRD AVESUITE 230\nSeattleWA98104",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.GHLCONSULTANTS.COM",
@@ -168,7 +261,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ON-SITE ENVIRONMENTAL INC",
+		"name": "ON-SITE ENVIRONMENTAL INC",
 		"address": "14648 NE 95TH ST\nRedmondWA98052",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ONSITE-ENV.COM",
@@ -182,7 +275,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "J R PAINTING CO INC",
+		"name": "J R PAINTING CO INC",
 		"address": "PO BOX 78660\nSeattleWA98178",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.JRPAINTINGDRYWALL.COM",
@@ -196,7 +289,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "WARREN'S NEWS & GIFT INC",
+		"name": "WARREN'S NEWS & GIFT INC",
 		"address": "631 STRANDER BLVDSUITE F\nSeattleWA98188",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -210,7 +303,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Roger Williams",
+		"name": "Roger Williams",
 		"address": "10885 DIXON DRIVE S\nSeattleWA98178",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -224,7 +317,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Charles R Horn Insurance LLC",
+		"name": "Charles R Horn Insurance LLC",
 		"address": "P.O. Box 535\nMercer IslandWA98040",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -238,7 +331,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Meko Construction Inc",
+		"name": "Meko Construction Inc",
 		"address": "3330 Bickford Ave, #203Suite 203\nSnohomishWA98290",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.MEKOCONSTRUCTION.COM",
@@ -252,7 +345,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Meko Construction Inc",
+		"name": "Meko Construction Inc",
 		"address": "3330 Bickford Ave, #203Suite 203\nSnohomishWA98290",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.MEKOCONSTRUCTION.COM",
@@ -266,7 +359,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ENTECH NORTHWEST INC",
+		"name": "ENTECH NORTHWEST INC",
 		"address": "43517 Ridge Park Drive, Suite 200\nTemeculaCA92590",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ENTECHNORTHWEST.COM",
@@ -280,7 +373,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ADP CONSTRUCTION SERVICES INC",
+		"name": "ADP CONSTRUCTION SERVICES INC",
 		"address": "2018 S 17TH ST\nTacomaWA98405",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -294,7 +387,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "RETAIL LOCKBOX INC",
+		"name": "RETAIL LOCKBOX INC",
 		"address": "PO BOX 84901\nSeattleWA98124",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.RETAILLOCKBOX.COM",
@@ -308,7 +401,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Pacific Communications Consultants, Inc.",
+		"name": "Pacific Communications Consultants, Inc.",
 		"address": "4872 123 Place SE\nBellevueWA98006",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.PCCUS.COM",
@@ -322,7 +415,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "JIMALE TECHNICAL SERVICES LLC",
+		"name": "JIMALE TECHNICAL SERVICES LLC",
 		"address": "PO BOX 78614\nSeattleWA98178",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.JTS-SEATTLE.COM",
@@ -336,7 +429,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "American Construction & Coatings LLC",
+		"name": "American Construction & Coatings LLC",
 		"address": "12506 Woodland Ave E\nPuyallupWA98373",
 		"hours": "M-F 9a-5p",
 		"social": "www.americanccl.com",
@@ -350,7 +443,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "AL VINSON INC",
+		"name": "AL VINSON INC",
 		"address": "26305 79TH AVE S\nKentWA98032",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -364,7 +457,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "MCGEE PLUMBING CO INC",
+		"name": "MCGEE PLUMBING CO INC",
 		"address": "PO BOX 829\nWashougalWA98671",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.MCGEEPLUMBINGCOMPANY.COM",
@@ -378,7 +471,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "BRIGHT ENGINEERING INC",
+		"name": "BRIGHT ENGINEERING INC",
 		"address": "1809 7th Ave., Suite 1100SUITE 1100\nSeattleWA98101",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.BRIGHTENG.COM",
@@ -392,7 +485,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "O'Bunco Engineering Int'l, Inc.",
+		"name": "O'Bunco Engineering Int'l, Inc.",
 		"address": "PO BOX 1356\nKentWA98035",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.OBUNCOENGINEERING.COM",
@@ -406,7 +499,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "GRIFFIN HILL & ASSOCIATES L L C",
+		"name": "GRIFFIN HILL & ASSOCIATES L L C",
 		"address": "821 Hiawatha Pl. So\nSeattleWA98144",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.GHALLC.COM",
@@ -420,7 +513,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "SOUND INTERNAL MEDICINE INC",
+		"name": "SOUND INTERNAL MEDICINE INC",
 		"address": "34716 1ST AVE SSUITE A\nFederal WayWA98003",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -434,7 +527,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "SYSTEMS CONSULTING LLC",
+		"name": "SYSTEMS CONSULTING LLC",
 		"address": "P O BOX 1741\nTacomaWA98401",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -448,7 +541,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Quality Woodworking & Construction LLC",
+		"name": "Quality Woodworking & Construction LLC",
 		"address": "P O BOX 81002\nSeattleWA98108",
 		"hours": "M-F 9a-5p",
 		"social": "www.qwcseattle.com",
@@ -462,7 +555,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "MICHAEL MINOR & ASSOCIATES INC",
+		"name": "MICHAEL MINOR & ASSOCIATES INC",
 		"address": "4923 SE 36TH AVENUE\nPortlandOR97202",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.DRNOISE.COM",
@@ -476,7 +569,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "SIMMS JANITORIAL SERVICE",
+		"name": "SIMMS JANITORIAL SERVICE",
 		"address": "PO BOX 64664\nTacomaWA98464",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -490,7 +583,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "CS3W Associates Inc",
+		"name": "CS3W Associates Inc",
 		"address": "2821 167th Ave NE\nBellevueWA98008",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.CS3W.COM",
@@ -504,7 +597,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "COLE & ASSOCIATES TRAINING AND CONSULTING INC",
+		"name": "COLE & ASSOCIATES TRAINING AND CONSULTING INC",
 		"address": "8657 South 190th St.\nKentWA98031",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.CTCBEAR.COM",
@@ -518,7 +611,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Green Stone Properties Inc.",
+		"name": "Green Stone Properties Inc.",
 		"address": "5123 Cloverdale Pl South\nSeattleWA98118",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.GREENSTONEPROPERTY.COM",
@@ -532,7 +625,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "UNITED REPROGRAPHICS L L C",
+		"name": "UNITED REPROGRAPHICS L L C",
 		"address": "1750 FOURTH AVENUE SOUTH\nSeattleWA98134",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.UNITEDREPROGRAPHICS.COM",
@@ -546,7 +639,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Tip Top Services Inc",
+		"name": "Tip Top Services Inc",
 		"address": "PO Box 98852\nDes MoinesWA98198",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -560,7 +653,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "JMR Trucking Inc.",
+		"name": "JMR Trucking Inc.",
 		"address": "PO Box 78024\nSeattleWA98178",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -574,7 +667,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Hughes Group LLC",
+		"name": "Hughes Group LLC",
 		"address": "3701 S Lawrence St\nTacomaWA98409",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.HUGHESGROUP.BIZ",
@@ -588,7 +681,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Mindseekers LLC",
+		"name": "Mindseekers LLC",
 		"address": "PO BOX 53073\nBellevueWA98015",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.MINDSEEKERS.COM",
@@ -602,7 +695,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ONi LLC",
+		"name": "ONi LLC",
 		"address": "3201 FIRST AVENUE SOUTHSUITE 201\nSeattleWA98134",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -616,7 +709,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Trinity Development Corporation",
+		"name": "Trinity Development Corporation",
 		"address": "1600 B SW Dash Point Road MB 111\nFederal WayWA98023",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -630,7 +723,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "EMERALD QUALITY TRANSPORTATION INC",
+		"name": "EMERALD QUALITY TRANSPORTATION INC",
 		"address": "3963 SOUTH SULLIVAN\nSeattleWA98118",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -644,7 +737,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "JP Francis & Associates, Inc.",
+		"name": "JP Francis & Associates, Inc.",
 		"address": "8223 S 222nd St\nKentWA98032",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -658,7 +751,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "M A D Construction LLC",
+		"name": "M A D Construction LLC",
 		"address": "22002 38TH AVE E\nSpanawayWA98387",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.MADCONSTRUCT.COM",
@@ -672,7 +765,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "M A D Construction LLC",
+		"name": "M A D Construction LLC",
 		"address": "22002 38TH AVE E\nSpanawayWA98387",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.MADCONSTRUCT.COM",
@@ -686,7 +779,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "HENRY T BELEFORD",
+		"name": "HENRY T BELEFORD",
 		"address": "49 LOGAN AVE SOUTH\nRentonWA98055",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.BSATHLETICUNIFORMS.COM",
@@ -700,7 +793,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ABN TECHNOLOGIES LLC",
+		"name": "ABN TECHNOLOGIES LLC",
 		"address": "8650 MARTIN WAY E, #211#211\nOlympiaWA98516",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ABNTEC.COM",
@@ -714,7 +807,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "UNIQUE EXPERIENCE CUSTOM EMBROIDERY INC",
+		"name": "UNIQUE EXPERIENCE CUSTOM EMBROIDERY INC",
 		"address": "329 N CALLOW AVE\nBremertonWA98312",
 		"hours": "M-F 9a-5p",
 		"social": "UNIQUEEXPERIENCEI.COM",
@@ -728,7 +821,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "LORACHE CAD/IT SERVICES LLC",
+		"name": "LORACHE CAD/IT SERVICES LLC",
 		"address": "650 SOUTH ORCAS STR218\nSeattleWA98108",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.LCS-SERVICES.COM",
@@ -742,7 +835,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "PUGH CAPITAL MANAGEMENT INC",
+		"name": "PUGH CAPITAL MANAGEMENT INC",
 		"address": "520 PIKE STREET SUITE 2900\nSeattleWA98101",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.PUGHCAPITAL.COM",
@@ -756,7 +849,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "SEATAC BAR GROUP",
+		"name": "SEATAC BAR GROUP",
 		"address": "3880 WEST ANN ROADSUITE #100\nNorth Las VegasNV89031",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -770,7 +863,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "S & T Window Films",
+		"name": "S & T Window Films",
 		"address": "17642 Irwin St SW\nRochesterWA98579",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.STWINDOWFILMS.NET",
@@ -784,7 +877,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "MARY BARNES BOGAN",
+		"name": "MARY BARNES BOGAN",
 		"address": "6961 S RUSTIC RD\nSeattleWA98178",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -798,7 +891,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ADEPT MECHANICAL SERVICES INC",
+		"name": "ADEPT MECHANICAL SERVICES INC",
 		"address": "P O BOX 5056\nKentWA98064",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ADEPTMECHANICAL.COM",
@@ -812,7 +905,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ATO APIAFI ARCHITECTS PLLC",
+		"name": "ATO APIAFI ARCHITECTS PLLC",
 		"address": "10940 NE 33RD PLACESUITE 208\nBellevueWA98004",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ATOAPIAFI.COM",
@@ -826,7 +919,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "FREDHOES GENERAL ELECTRIC LLC",
+		"name": "FREDHOES GENERAL ELECTRIC LLC",
 		"address": "24407 26TH PL S\nSeattleWA98198",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.FREDHOES.COM",
@@ -840,7 +933,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "KB ELECTRIC SERVICE INC",
+		"name": "KB ELECTRIC SERVICE INC",
 		"address": "PO BOX 22931\nSeattleWA98122",
 		"hours": "M-F 9a-5p",
 		"social": "www.kbelectricservice.com",
@@ -854,7 +947,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "MOTHER NATURES CLEANING SERVICE",
+		"name": "MOTHER NATURES CLEANING SERVICE",
 		"address": "PO BOX 6562\nKentWA98064",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -868,7 +961,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Management Systems & Services, Inc.",
+		"name": "Management Systems & Services, Inc.",
 		"address": "PO Box 1008\nLa ConnerWA98257",
 		"hours": "M-F 9a-5p",
 		"social": "www.mssinc.ws",
@@ -882,7 +975,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "GARRISON CREEK LANDSCAPING INC",
+		"name": "GARRISON CREEK LANDSCAPING INC",
 		"address": "PO BOX 1511\nKentWA98035",
 		"hours": "M-F 9a-5p",
 		"social": "GARRISONCRK.COM",
@@ -896,7 +989,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ELIE DESIGN INC",
+		"name": "ELIE DESIGN INC",
 		"address": "PO BOX 2449\nYelmWA98597",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ELIEDESIGN.COM",
@@ -910,7 +1003,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ELIE INVESTMENTS LLC",
+		"name": "ELIE INVESTMENTS LLC",
 		"address": "PO BOX 2449\nYelmWA98597",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -924,7 +1017,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "TELCOCAPITAL LLC",
+		"name": "TELCOCAPITAL LLC",
 		"address": "1200 W. Cheyene Rd, Ste 3-1013\nNorth Las VegasNV89030",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.TELCOCAPITAL.COM",
@@ -938,7 +1031,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "The Fitz-Williams Group",
+		"name": "The Fitz-Williams Group",
 		"address": "8507 45th St W\nUniversity PlaceWA98466",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -952,7 +1045,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Fano's International Cuisine LLC",
+		"name": "Fano's International Cuisine LLC",
 		"address": "2739 SW 323rd St\nFederal WayWA98023",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -966,7 +1059,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ALTECH SERVICES INC",
+		"name": "ALTECH SERVICES INC",
 		"address": "695 US Highway 46, Suite 301B\nFairfieldNJ07004",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ALTECHTS.COM",
@@ -980,7 +1073,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ROBIN J WILLIAMS",
+		"name": "ROBIN J WILLIAMS",
 		"address": "PO BOX 81202\nSeattleWA98108",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -994,7 +1087,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "PJS & P ASSOCIATES LLC",
+		"name": "PJS & P ASSOCIATES LLC",
 		"address": "17215 NE 95TH ST\nRedmondWA98052",
 		"hours": "M-F 9a-5p",
 		"social": "www.pjspassociates.com",
@@ -1008,7 +1101,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "WILLIAMS CHARLENE",
+		"name": "WILLIAMS CHARLENE",
 		"address": "2108 E MADISON ST\nSeattleWA98112",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.DECHARLENE.COM",
@@ -1022,7 +1115,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "NORTHWEST ENTERPRISES INC",
+		"name": "NORTHWEST ENTERPRISES INC",
 		"address": "PO BOX 5106\nTacomaWA98415",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1036,7 +1129,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "SMITH BROWN STERLING PS",
+		"name": "SMITH BROWN STERLING PS",
 		"address": "P O BOX 940\nFall CityWA98024",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.BROWNSTERLING.COM",
@@ -1050,7 +1143,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "PMT Solutions LLC",
+		"name": "PMT Solutions LLC",
 		"address": "2330 130TH AVE NE, Suite 101SUITE 101\nBellevueWA98005",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.PMT-SOLUTIONS.COM",
@@ -1064,7 +1157,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ROSS COMPANY ENGINEERING SERVICES LLC",
+		"name": "ROSS COMPANY ENGINEERING SERVICES LLC",
 		"address": "1245 AUBURN WAY N, #297#297\nAuburnWA98002",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.RCESERVICES.NET",
@@ -1078,7 +1171,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "T & L VENDING INC",
+		"name": "T & L VENDING INC",
 		"address": "PO BOX 413\nAuburnWA98071",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1092,7 +1185,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "KIAWA TRUCKING LLC",
+		"name": "KIAWA TRUCKING LLC",
 		"address": "3202 S EDMUNDS STAPT 10\nSeattleWA98118",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1106,7 +1199,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "MAKS DUMP TRUCK LLC",
+		"name": "MAKS DUMP TRUCK LLC",
 		"address": "4822 S RAYMOND ST\nSeattleWA98118",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1120,7 +1213,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "TRIUNITY ENGINEERING & MANAGEMENT INC",
+		"name": "TRIUNITY ENGINEERING & MANAGEMENT INC",
 		"address": "621 17th Street, Suite 950\nDenverCO80293",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.TRIUNITYENG.COM",
@@ -1134,7 +1227,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "W E COATES SURVEYING LLC",
+		"name": "W E COATES SURVEYING LLC",
 		"address": "9825 GLORY DR SE\nOlympiaWA98513",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1148,7 +1241,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "URBAN TECHNOLOGY SYSTEMS INC",
+		"name": "URBAN TECHNOLOGY SYSTEMS INC",
 		"address": "2200 6TH AVENUE, Ste 409SUITE 409\nSeattleWA98121",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.URBANTECHSYS.COM",
@@ -1162,7 +1255,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "STEPHERSON AND ASSOCIATES LLC",
+		"name": "STEPHERSON AND ASSOCIATES LLC",
 		"address": "234 9TH AVENUE NORTH\nSeattleWA98109",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.STEPHERSONASSOCIATES.COM",
@@ -1176,7 +1269,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Z Venture Capital Frontiers, Inc.",
+		"name": "Z Venture Capital Frontiers, Inc.",
 		"address": "1625 WEST VERNON AVE\nLos AngelesCA90062",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.THEZAMANGROUP.COM",
@@ -1190,7 +1283,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "AFAR LOGISTICS LLC",
+		"name": "AFAR LOGISTICS LLC",
 		"address": "10206 23RD COURT SW\nSeattleWA98146",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1204,7 +1297,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "COATES PRE-CONSTRUCTION PHOTOGRAPHY",
+		"name": "COATES PRE-CONSTRUCTION PHOTOGRAPHY",
 		"address": "1625 7TH AVE SW\nPuyallupWA98371",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.COATESCONSTRUCTIONPHOTO.COM",
@@ -1218,7 +1311,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "EVERGREEN COMPUTER PRODUCTS INC",
+		"name": "EVERGREEN COMPUTER PRODUCTS INC",
 		"address": "2720 1ST AVE S\nSeattleWA98134",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.EVERGREENCOMP.COM",
@@ -1232,7 +1325,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "EJP CONSULTING GROUP LLC",
+		"name": "EJP CONSULTING GROUP LLC",
 		"address": "20201 21ST PLACE NW\nSeattleWA98177",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.EJPCONSULTINGGROUP.COM",
@@ -1246,7 +1339,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "LANGUAGES TRANSLATION SERVICES",
+		"name": "LANGUAGES TRANSLATION SERVICES",
 		"address": "34726 31ST CT SW\nFederal WayWA98023",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.LANGUAGES-TRANSLATION.INFO",
@@ -1260,7 +1353,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "CHLOE WINES LLC",
+		"name": "CHLOE WINES LLC",
 		"address": "1521 NORTH 121ST ST\nSeattleWA98133",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.CHLOEWINES.COM",
@@ -1274,7 +1367,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ANC CUSTODIAL SERVICES LLC",
+		"name": "ANC CUSTODIAL SERVICES LLC",
 		"address": "PO BOX 8714\nLaceyWA98509",
 		"hours": "M-F 9a-5p",
 		"social": "www.anccustodial.com",
@@ -1288,7 +1381,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "CULTURES CONNECTING LLC",
+		"name": "CULTURES CONNECTING LLC",
 		"address": "17701 108th Ave SE, #353#353\nRentonWA98055",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.CULTURESCONNECTING.COM",
@@ -1302,7 +1395,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Rose Super Clean and Parking Management, Inc.",
+		"name": "Rose Super Clean and Parking Management, Inc.",
 		"address": "4745 Delridge Way SW #A# A\nSeattleWA98106",
 		"hours": "M-F 9a-5p",
 		"social": "www.rosesuperclean.com",
@@ -1316,7 +1409,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "TCC & ASSOCIATES INC",
+		"name": "TCC & ASSOCIATES INC",
 		"address": "5821 SE 82nd Ave., Suite 111SUITE 111\nPortlandOR97266",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.TCCENGR.COM",
@@ -1330,7 +1423,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "STYRO RECYCLE LLC",
+		"name": "STYRO RECYCLE LLC",
 		"address": "PO BOX 834\nMiltonWA98354",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.STYRORECYCLE.COM",
@@ -1344,7 +1437,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "FAISON CONSTRUCTION INC",
+		"name": "FAISON CONSTRUCTION INC",
 		"address": "6226 SW 33RD PLACE\nPortlandOR97239",
 		"hours": "M-F 9a-5p",
 		"social": "n/a",
@@ -1358,7 +1451,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ROAD RUNNER TRANSPORTATION LLC",
+		"name": "ROAD RUNNER TRANSPORTATION LLC",
 		"address": "4435 S. Camano Pl. \nSeattleWA98118",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1372,7 +1465,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "National Insurance Consultants Inc",
+		"name": "National Insurance Consultants Inc",
 		"address": "8687 W Sahara Ave., Suite 200SUITE 200\nLas VegasNV89117",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.NICIINSURE.COM",
@@ -1386,7 +1479,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "DHD TRUCKING LLC",
+		"name": "DHD TRUCKING LLC",
 		"address": "5573 23RD AVE S\nSeattleWA98108",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1400,7 +1493,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "NORTHWEST INFRASTRUCTURE",
+		"name": "NORTHWEST INFRASTRUCTURE",
 		"address": "2323 SE CLATSOP\nPortlandOR97202",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1414,7 +1507,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "TIMAR ALEM DMD PLLC",
+		"name": "TIMAR ALEM DMD PLLC",
 		"address": "747 N 185TH STSUITE 101\nSeattleWA98133",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ALEMFAMILYDENTAL.COM",
@@ -1428,7 +1521,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Aquanate.com LLC",
+		"name": "Aquanate.com LLC",
 		"address": "10924 Forest Ave S\nSeattleWA98178",
 		"hours": "M-F 9a-5p",
 		"social": "www.aquanate.com",
@@ -1442,7 +1535,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Jaguar Security Inc",
+		"name": "Jaguar Security Inc",
 		"address": "PO BOX 3468\nFederal WayWA98063",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.JAGUARSECURITYINC.COM",
@@ -1456,7 +1549,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "THE CHAMPION SERVICES GROUP INC",
+		"name": "THE CHAMPION SERVICES GROUP INC",
 		"address": "6501 NW 36TH ST#300\nMiamiFL33166",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.THECHAMPIONSERVICESGROUP.COM",
@@ -1470,7 +1563,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "MYOS WORLDWIDE TRAVEL",
+		"name": "MYOS WORLDWIDE TRAVEL",
 		"address": "816 33RD AVENUE S\nSeattleWA98144",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.MYOSWORLDWIDETRAVEL.COM",
@@ -1484,7 +1577,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ABS COMMUNICATIONS INC",
+		"name": "ABS COMMUNICATIONS INC",
 		"address": "PO BOX 25612\nSeattleWA98165",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ABSCOMM.COM",
@@ -1498,7 +1591,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "OSIRIS ENTERPRISES LLC",
+		"name": "OSIRIS ENTERPRISES LLC",
 		"address": "22122 35th Place S, Apt H114APT H114\nKentWA98032",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1512,7 +1605,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "THE MADAVI GROUP LLP",
+		"name": "THE MADAVI GROUP LLP",
 		"address": "9594 1ST AVE NE#132\nSeattleWA98115",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.MADAVIGROUP.COM",
@@ -1526,7 +1619,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "RYTEK CONSULTING LLC",
+		"name": "RYTEK CONSULTING LLC",
 		"address": "1524 S 56TH STREET\nTacomaWA98408",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.RYTEKPC.COM",
@@ -1540,7 +1633,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "CMAX LLC",
+		"name": "CMAX LLC",
 		"address": "10708 114TH AVE SW\nLakewoodWA98498",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1554,7 +1647,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Affordable Electric Inc",
+		"name": "Affordable Electric Inc",
 		"address": "14942 SE 82nd Dr \nClackamasOR97015",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1568,7 +1661,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Gladstone Enterprises LLC",
+		"name": "Gladstone Enterprises LLC",
 		"address": "14201 SE Petrovitsky Rd, Ste A3-317\nRentonWA98058",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.GLADSTONEENTERPRISES.COM",
@@ -1582,7 +1675,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ARMAND RESOURCE GROUP INC",
+		"name": "ARMAND RESOURCE GROUP INC",
 		"address": "300 Frank W. Burr Blvd, Second Fl East #35Suite #35\nTeaneckNJ07666",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ARGDIVERSITY.COM",
@@ -1596,7 +1689,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "WCTJ INC",
+		"name": "WCTJ INC",
 		"address": "1820 NW 137 AVE\nPortlandOR97227",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1610,7 +1703,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Trinity Construction Builders LLC",
+		"name": "Trinity Construction Builders LLC",
 		"address": "6208 44TH AVE S\nSeattleWA98118",
 		"hours": "M-F 9a-5p",
 		"social": "www.trinityconstructionllc.com",
@@ -1624,7 +1717,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "COLUMBIA PHYSICAL THERAPY SERVICES INC PS",
+		"name": "COLUMBIA PHYSICAL THERAPY SERVICES INC PS",
 		"address": "PO BOX 40286\nBellevueWA98015",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1638,7 +1731,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Washington State Trucking",
+		"name": "Washington State Trucking",
 		"address": "20611 Bothell-Everett Highway E-108\nBothellWA98012",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1652,7 +1745,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "LOW VOLTAGE SYSTEMS INC",
+		"name": "LOW VOLTAGE SYSTEMS INC",
 		"address": "PO BOX 14215\nMill CreekWA98082",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1666,7 +1759,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "OJT INTERIOR CLEANING SERVICES",
+		"name": "OJT INTERIOR CLEANING SERVICES",
 		"address": "919 E 73RD STREET\nTacomaWA98404",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1680,7 +1773,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "MFA COURIER SERVICES",
+		"name": "MFA COURIER SERVICES",
 		"address": "3503 SO HUDSON ST\nSeattleWA98118",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1694,7 +1787,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ANOPS LIMITED",
+		"name": "ANOPS LIMITED",
 		"address": "14240 Interurban Ave S, Ste 248 \nTukwilaWA98168",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ANOPS.COM",
@@ -1708,7 +1801,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "RESTORATION RESOURCES",
+		"name": "RESTORATION RESOURCES",
 		"address": "PO BOX 18617\nSeattleWA98118",
 		"hours": "M-F 9a-5p",
 		"social": "www.nwrestorationresources.com",
@@ -1722,7 +1815,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Michaelis Trucking & Excavating, LLC",
+		"name": "Michaelis Trucking & Excavating, LLC",
 		"address": "PO BOX 15057\nTumwaterWA98511",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1736,7 +1829,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "RC BUILDING SPECIALTIES LLC",
+		"name": "RC BUILDING SPECIALTIES LLC",
 		"address": "4229 NW Meisner Dr.\nPortlandOR97229",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.RCBSPECIALTIES.COM",
@@ -1750,7 +1843,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "SAMCO JANITORIAL SERVICE",
+		"name": "SAMCO JANITORIAL SERVICE",
 		"address": "15410 SE MEADOW PARK DR\nVancouverWA98683",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1764,7 +1857,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "JOHNNY E PENDERGRASS",
+		"name": "JOHNNY E PENDERGRASS",
 		"address": "4724 SO GROVE PLACE\nTacomaWA98409",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1778,7 +1871,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "MD MEDICAL SUPPLIES INC",
+		"name": "MD MEDICAL SUPPLIES INC",
 		"address": "2533 152ND AVE NE\nRedmondWA98052",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.MDMEDICALSUPPLIES.COM",
@@ -1792,7 +1885,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "La Trelles Express, Inc.",
+		"name": "La Trelles Express, Inc.",
 		"address": "2131 GREEN OAK DRIVE\nKingwoodTX77339",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1806,7 +1899,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Capital Security LLC",
+		"name": "Capital Security LLC",
 		"address": "7303 46TH AVE SO\nSeattleWA98118",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.CAPITALSECURITYWA.COM",
@@ -1820,7 +1913,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "MEEDS ENVIRONMENTAL LLC",
+		"name": "MEEDS ENVIRONMENTAL LLC",
 		"address": "3330 Bickford Ave., Suite 203\nSnohomishWA98290",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.MEEDSENVIRONMENTAL.COM",
@@ -1834,7 +1927,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "SECURITY MANAGEMENT AND INTEGRATION COMPANY INC",
+		"name": "SECURITY MANAGEMENT AND INTEGRATION COMPANY INC",
 		"address": "1423 EAST 29TH STSUITE 317\nTacomaWA98404",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.DCID63.COM",
@@ -1848,7 +1941,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "THADDEUS P MARTIN",
+		"name": "THADDEUS P MARTIN",
 		"address": "4928 109TH ST SW\nLakewoodWA98499",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.THADLAW.COM",
@@ -1862,7 +1955,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "EDI INTERNATIONAL LLC",
+		"name": "EDI INTERNATIONAL LLC",
 		"address": "12221 46TH AVE S\nSeattleWA98178",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.EDIINTERNATIONAL.COM",
@@ -1876,7 +1969,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Nali Natural Body Care Products, Inc.",
+		"name": "Nali Natural Body Care Products, Inc.",
 		"address": "PO Box 5855\nLaceyWA98509",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.NALINATURAL.COM",
@@ -1890,7 +1983,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Special Touch Painting, Inc.",
+		"name": "Special Touch Painting, Inc.",
 		"address": "19226 66TH AVE S#L105\nKentWA98032",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1904,7 +1997,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "JESSIE M BANKS DDS PLLC",
+		"name": "JESSIE M BANKS DDS PLLC",
 		"address": "1344 NE MCWILLIAMS RD#130\nBremertonWA98311",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.KITSAPKIDSDENTISTRY.COM",
@@ -1918,7 +2011,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "VIZOR REALTY LLC",
+		"name": "VIZOR REALTY LLC",
 		"address": "PO BOX 2961\nKirklandWA98083",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.VIZORREALTY.COM",
@@ -1932,7 +2025,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "LANCS INDUSTRIES HOLDINGS LLC",
+		"name": "LANCS INDUSTRIES HOLDINGS LLC",
 		"address": "12704 NE 124TH St., #36BLDG #36\nKirklandWA98034",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.LANCSINDUSTRIES.COM",
@@ -1946,7 +2039,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "GIRMAY INC",
+		"name": "GIRMAY INC",
 		"address": "17509 33rd Pl W\nLynnwoodWA98037",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1960,7 +2053,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Living Hope Care Center",
+		"name": "Living Hope Care Center",
 		"address": "402 North J Street\nTacomaWA98403",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -1974,7 +2067,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "NADERS PAINTING",
+		"name": "NADERS PAINTING",
 		"address": "6735 21ST AVE NW\nSeattleWA98117",
 		"hours": "M-F 9a-5p",
 		"social": "N/A",
@@ -1988,7 +2081,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "FRANCIS & COMPANY PLLC",
+		"name": "FRANCIS & COMPANY PLLC",
 		"address": "701 Dexter Ave N, Suite 404SUITE 404\nSeattleWA98109",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.FRANCIS-COMPANY.COM",
@@ -2002,7 +2095,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "A & D Quality Construction Co LLC",
+		"name": "A & D Quality Construction Co LLC",
 		"address": "PO Box 2797\nRentonWA98059",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -2016,7 +2109,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "G3 & Associates",
+		"name": "G3 & Associates",
 		"address": "1425 Broadway #42SUITE #42\nSeattleWA98178",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.G3-ASSOCIATES.COM",
@@ -2030,7 +2123,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "G3 & Associates",
+		"name": "G3 & Associates",
 		"address": "1425 Broadway #42SUITE #42\nSeattleWA98178",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.G3-ASSOCIATES.COM",
@@ -2044,7 +2137,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "FLYRIGHT PRODUCTIONS LLC",
+		"name": "FLYRIGHT PRODUCTIONS LLC",
 		"address": "3429 S. 141st Street\nSeattleWA98168",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.FLYRIGHTPRODUCTIONS.NET",
@@ -2058,7 +2151,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Boanerges Group LLC",
+		"name": "Boanerges Group LLC",
 		"address": "PO BOX 11115\nPortlandOR97217",
 		"hours": "M-F 9a-5p",
 		"social": "www.bggllc.com",
@@ -2072,7 +2165,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "PRO USA LLC",
+		"name": "PRO USA LLC",
 		"address": "PO Box 80903\nSeattleWA98108",
 		"hours": "M-F 9a-5p",
 		"social": "http://pro-usa-llc.com/",
@@ -2086,7 +2179,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "COLLECTIVE ENTERPRISE GROUP LLC",
+		"name": "COLLECTIVE ENTERPRISE GROUP LLC",
 		"address": "PO Box 45431\nTacomaWA98448",
 		"hours": "M-F 9a-5p",
 		"social": "www.premaint.com",
@@ -2100,7 +2193,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ERICA NORTON",
+		"name": "ERICA NORTON",
 		"address": "37694 18TH PL S\nFederal WayWA98003",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.YOURHOMECONCIERGEWA.COM",
@@ -2114,7 +2207,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "PROJECTO MANAGERIAL LLC",
+		"name": "PROJECTO MANAGERIAL LLC",
 		"address": "1744 South Dawson Street\nSeattleWA98108",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.PROJMANAGERIAL.COM",
@@ -2128,7 +2221,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Haregu Nemariam Engineering LLC",
+		"name": "Haregu Nemariam Engineering LLC",
 		"address": "10976 NW Ironwood Lane \nPortlandOR97229",
 		"hours": "M-F 9a-5p",
 		"social": "www.nemariam-engineers.com",
@@ -2142,7 +2235,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "EMPIRE COLLECTION AUTHORITIES INC",
+		"name": "EMPIRE COLLECTION AUTHORITIES INC",
 		"address": "PO BOX 1196\nAberdeenWA98520",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ECACOLLECTS.COM",
@@ -2156,7 +2249,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Johnnie McKinley Associates LLC",
+		"name": "Johnnie McKinley Associates LLC",
 		"address": "PO BOX 3323\nSeattleWA98114",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.THEJMAGROUP.COM",
@@ -2170,7 +2263,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Personal Turf Inc",
+		"name": "Personal Turf Inc",
 		"address": "2021 1/2 Willow Lane W\nUniversity PlaceWA98466",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -2184,7 +2277,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "RED SEA REALTY INVESTMENTS",
+		"name": "RED SEA REALTY INVESTMENTS",
 		"address": "2000 23RD AVE S#E\nSeattleWA98144",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.CAPITOLREALTYONLINE.COM",
@@ -2198,7 +2291,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "CW JANITORIAL SERVICE LLC",
+		"name": "CW JANITORIAL SERVICE LLC",
 		"address": "1704 LUCILLE PARKWAY NW\nGig HarborWA98335",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.CWJANITORIALSERVICELLC.TACOMA.COM",
@@ -2212,7 +2305,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Terell Enterprises Inc",
+		"name": "Terell Enterprises Inc",
 		"address": "PO BOX 1213\nClackamasOR97015",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.SERVICEMASTERBUILDINGSERVICES.COM",
@@ -2226,7 +2319,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ENERGIZE ELECTRIC INC",
+		"name": "ENERGIZE ELECTRIC INC",
 		"address": "PO BOX 53514\nBellevueWA98015",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.NERGIZENOW.COM",
@@ -2240,7 +2333,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "VERONIQUE A BENSON",
+		"name": "VERONIQUE A BENSON",
 		"address": "3434 BEACON AVE S#303\nSeattleWA98144",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.SSGMUSIC.COM",
@@ -2254,7 +2347,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "SECURANCE LLC",
+		"name": "SECURANCE LLC",
 		"address": "6922 W LINEBAUGH AVE#101\nTampaFL33625",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.SECURANCECONSULTING.COM",
@@ -2268,7 +2361,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Bulk Cargo Services & Logistics Inc",
+		"name": "Bulk Cargo Services & Logistics Inc",
 		"address": "15400 NE 103RD DR\nVancouverWA98682",
 		"hours": "M-F 9a-5p",
 		"social": "www.bulkcargoservices.com",
@@ -2282,7 +2375,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "DAYOSENSE",
+		"name": "DAYOSENSE",
 		"address": "2306 S EDDY ST\nSeattleWA98108",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.DAYOSENSE.COM",
@@ -2296,7 +2389,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "FIRST CHOICE TRANSIT LLC",
+		"name": "FIRST CHOICE TRANSIT LLC",
 		"address": "PO BOX 68892\nSeattleWA98188",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -2310,7 +2403,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Whitney Jennings LLC",
+		"name": "Whitney Jennings LLC",
 		"address": "4219 91st Ave SE\nMercer IslandWA98040",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.WHITNEYJENNINGS.COM",
@@ -2324,7 +2417,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "AN UNCLUTTERED MIND LLC PROFESSIONAL ORGANIZER COMP",
+		"name": "AN UNCLUTTERED MIND LLC PROFESSIONAL ORGANIZER COMP",
 		"address": "6928 S RUSTIC RD\nSeattleWA98178",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ANUNCLUTTEREDMIND.COM",
@@ -2338,7 +2431,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "SECURE ASSETS PROPERTY MAINTENANCE AND PRESERVATION LLC",
+		"name": "SECURE ASSETS PROPERTY MAINTENANCE AND PRESERVATION LLC",
 		"address": "PO BOX 1\nBremertonWA98337",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -2352,7 +2445,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "TSB Maintenance LLC",
+		"name": "TSB Maintenance LLC",
 		"address": "7834 A South Sunnycrest Rd\nSeattleWA98178",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.TSBMAINTENANCE.COM",
@@ -2366,7 +2459,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "F M BURCH AND ASSOCIATES INC",
+		"name": "F M BURCH AND ASSOCIATES INC",
 		"address": "2009 NE Edgewater Dr.\nPortlandOR97211",
 		"hours": "M-F 9a-5p",
 		"social": "www.fayeburch.com",
@@ -2380,7 +2473,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "KATHY LAWRENCE H CONSTRUCTION CLEAN UP",
+		"name": "KATHY LAWRENCE H CONSTRUCTION CLEAN UP",
 		"address": "4815 NE 10TH\nPortlandOR97211",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -2394,7 +2487,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "GARY SCOTT ARCHITECTS LLC",
+		"name": "GARY SCOTT ARCHITECTS LLC",
 		"address": "421 NE 82nd Street\nSeattleWA98115",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.GARYSCOTTARCHITECTS.COM",
@@ -2408,7 +2501,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "BRILLIANT YOU LLC",
+		"name": "BRILLIANT YOU LLC",
 		"address": "7650 SE 27TH STREETUNIT 534\nMercer IslandWA98040",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -2422,7 +2515,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "FH Counseling & Associates LLC",
+		"name": "FH Counseling & Associates LLC",
 		"address": "917 Pacific Avenue \nTacomaWA98402",
 		"hours": "M-F 9a-5p",
 		"social": "www.fhca-pllc.com",
@@ -2436,7 +2529,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "C&G FLANNIGAN CONTRACTING",
+		"name": "C&G FLANNIGAN CONTRACTING",
 		"address": "111 178TH ST CT E\nSpanawayWA98387",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -2450,7 +2543,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "C &  E TRANSPORT CORP",
+		"name": "C &  E TRANSPORT CORP",
 		"address": "PO BOX 58033\nRentonWA98058",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -2464,7 +2557,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "IBG COUNSELING & EDUCATIONAL CENTER INC",
+		"name": "IBG COUNSELING & EDUCATIONAL CENTER INC",
 		"address": "10202 PACIFIC AVE S#208\nTacomaWA98444",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.IBGCENTER.COM",
@@ -2478,7 +2571,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "KEEP IT SIMPLE PHLEBOTOMY ACADEMY",
+		"name": "KEEP IT SIMPLE PHLEBOTOMY ACADEMY",
 		"address": "2009 70TH AVE W\nTacomaWA98466",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -2492,7 +2585,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "AFFORDABLE HAULERS & MOVERS",
+		"name": "AFFORDABLE HAULERS & MOVERS",
 		"address": "PO BOX 18104\nSpokaneWA99228",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.AFFORDABLEHAULERS.COM",
@@ -2506,7 +2599,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "ALPHAO STAFFING NEWORK INC",
+		"name": "ALPHAO STAFFING NEWORK INC",
 		"address": "2661 N PEARL STPMB 180\nTacomaWA98407",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ALPHAOSTAFFING.COM",
@@ -2520,7 +2613,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Green Team Cleaning Services LLC",
+		"name": "Green Team Cleaning Services LLC",
 		"address": "6107 SW MURRAY BLVD#259\nBeavertonOR97008",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.GREENTEAMCLEANING.BIZ",
@@ -2534,7 +2627,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "SUPERIOR EARTHWORKS LLC",
+		"name": "SUPERIOR EARTHWORKS LLC",
 		"address": "10610 WOODLEY AVE S\nSeattleWA98178",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -2548,7 +2641,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "NEVER LIMITED LLC",
+		"name": "NEVER LIMITED LLC",
 		"address": "1363 204TH AVE\nSammamishWA98074",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.NEVERLIMITEDLLC.COM",
@@ -2562,7 +2655,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "MX SYSTEMS LLC",
+		"name": "MX SYSTEMS LLC",
 		"address": "PO BOX 944\nRainierWA98576",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ACIMETALWORKS.COM",
@@ -2576,7 +2669,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "THE URBAN BUGGY LLC",
+		"name": "THE URBAN BUGGY LLC",
 		"address": "PO BOX 28536\nSeattleWA98118",
 		"hours": "M-F 9a-5p",
 		"social": "www.theurbanbuggy.com",
@@ -2590,7 +2683,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "MAINSTREET MASONRY RESTORATION LLC",
+		"name": "MAINSTREET MASONRY RESTORATION LLC",
 		"address": "12414 Highway 99 #C205\nEverettWA98204",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -2604,7 +2697,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Advanced Technology Computers Inc",
+		"name": "Advanced Technology Computers Inc",
 		"address": "824 Grimes Road\nBothellWA98012",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ATCDIRECT.COM",
@@ -2618,7 +2711,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Ocean Rooter Services, LLC",
+		"name": "Ocean Rooter Services, LLC",
 		"address": "P.O. Box 1044\nSpanawayWA98387",
 		"hours": "M-F 9a-5p",
 		"social": "N/A",
@@ -2632,7 +2725,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "NOAKRO CONSULT LLC",
+		"name": "NOAKRO CONSULT LLC",
 		"address": "2967 Muttonbird Way\nSacramentoCA95834",
 		"hours": "M-F 9a-5p",
 		"social": "www.noakro.net",
@@ -2646,7 +2739,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "TRAFTON INTERNATIONAL CONSULTING GROUP, LLC",
+		"name": "TRAFTON INTERNATIONAL CONSULTING GROUP, LLC",
 		"address": "357 26th Avenue \nSeattleWA98122",
 		"hours": "M-F 9a-5p",
 		"social": "www.trafton-group.com",
@@ -2660,7 +2753,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "BZ Port Trucking, LLC",
+		"name": "BZ Port Trucking, LLC",
 		"address": "650 S. Orcas St, Suite 214Suite 214\nSeattleWA98108",
 		"hours": "M-F 9a-5p",
 		"social": "www.bzporttrucking.com",
@@ -2674,7 +2767,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Backstrom McCarley Berry & Co., LLC",
+		"name": "Backstrom McCarley Berry & Co., LLC",
 		"address": "115 Sansome Street Mezz. A \nSan FranciscoCA94104",
 		"hours": "M-F 9a-5p",
 		"social": "www.bmcbco.com",
@@ -2688,7 +2781,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Reliable Investments LLC",
+		"name": "Reliable Investments LLC",
 		"address": "9735 26th Ave, SW \nSeattleWA98106",
 		"hours": "M-F 9a-5p",
 		"social": "www.reliableinvestmentsllc.com",
@@ -2702,7 +2795,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "East Africa Money Wiring LLC",
+		"name": "East Africa Money Wiring LLC",
 		"address": "3219 Martin Luther King Jr Way S\nSeattleWA98144",
 		"hours": "M-F 9a-5p",
 		"social": "www.eastafricamoneywiring.com",
@@ -2716,7 +2809,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Sigma Operational Services, LLC",
+		"name": "Sigma Operational Services, LLC",
 		"address": "2704 NW 18th Avenue\nCamasWA98607",
 		"hours": "M-F 9a-5p",
 		"social": "www.sigmaops.com",
@@ -2730,7 +2823,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Tyler Communications Inc.",
+		"name": "Tyler Communications Inc.",
 		"address": "780 Morosgo Drive, #14366 \nAtlantaGA30324",
 		"hours": "M-F 9a-5p",
 		"social": "www.tylercommunications.net",
@@ -2744,7 +2837,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Brown Sugar Baking Company, LLC",
+		"name": "Brown Sugar Baking Company, LLC",
 		"address": "P.O. Box 28536\nSeattleWA98144",
 		"hours": "M-F 9a-5p",
 		"social": "www.brownsugarbakingcompany.com",
@@ -2758,7 +2851,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Black Star Construction",
+		"name": "Black Star Construction",
 		"address": "PO Box 0753\nAuburnWA98071",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -2772,7 +2865,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Appspira Business Solutions LLC",
+		"name": "Appspira Business Solutions LLC",
 		"address": "PO Box 45241\nSeattleWA98145",
 		"hours": "M-F 9a-5p",
 		"social": "www.appspira.com",
@@ -2786,7 +2879,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "PACIFICMARK CONSTRUCTION CORP.",
+		"name": "PACIFICMARK CONSTRUCTION CORP.",
 		"address": "P.O. Box 67247\nPortlandOR97268",
 		"hours": "M-F 9a-5p",
 		"social": "www.pacificmarkconstruction.com",
@@ -2800,7 +2893,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Britt Real Estate & Management, LLC",
+		"name": "Britt Real Estate & Management, LLC",
 		"address": "3808 37th Ave S\nSeattleWA98118",
 		"hours": "M-F 9a-5p",
 		"social": "www.brittrealestate.net",
@@ -2814,7 +2907,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "RLA Engineering LLC",
+		"name": "RLA Engineering LLC",
 		"address": "16505 SE 1st St., #311#311\nVancouverWA98684",
 		"hours": "M-F 9a-5p",
 		"social": "RLAeng.com",
@@ -2828,7 +2921,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Whayne and Sons Enterprises, Inc.",
+		"name": "Whayne and Sons Enterprises, Inc.",
 		"address": "10515 E. 40th Ave., Suite 103Suite 103\nDenverCO80239",
 		"hours": "M-F 9a-5p",
 		"social": "www.whayneenterprises.com",
@@ -2842,7 +2935,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Allegiance Trucking LLC",
+		"name": "Allegiance Trucking LLC",
 		"address": "1826 East 31st Street\nBremertonWA98310",
 		"hours": "M-F 9a-5p",
 		"social": "www.allegiancetrucking.com",
@@ -2856,7 +2949,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Selam Hospitality Services, Inc",
+		"name": "Selam Hospitality Services, Inc",
 		"address": "15571 Finch Ave \nApple ValleyMN55124",
 		"hours": "M-F 9a-5p",
 		"social": "www.shshospitality.com",
@@ -2870,7 +2963,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Liberty Security LLC",
+		"name": "Liberty Security LLC",
 		"address": "10605 SE 261st Pl., Suite D102\nKentWA98030",
 		"hours": "M-F 9a-5p",
 		"social": "www.libertysecurityllc.com",
@@ -2884,7 +2977,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Adekoya Business Consulting LLC",
+		"name": "Adekoya Business Consulting LLC",
 		"address": "33021 Hoyt Road SW\nFederal WayWA98023",
 		"hours": "M-F 9a-5p",
 		"social": "www.adekoyabusinessconsulting.com",
@@ -2898,7 +2991,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "O'Neill Electric Inc",
+		"name": "O'Neill Electric Inc",
 		"address": "4444 SE 27th Ave. \nPortlandOR97202",
 		"hours": "M-F 9a-5p",
 		"social": "www.oneillelectricinc.com",
@@ -2912,7 +3005,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Essence Non-Emergency Medical Transportation LLC",
+		"name": "Essence Non-Emergency Medical Transportation LLC",
 		"address": "1318 Clover Loop SE \nLaceyWA98513",
 		"hours": "M-F 9a-5p",
 		"social": "WWW.ESSENCETRASPORTATION.COM",
@@ -2926,7 +3019,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "MCR Connect LLC",
+		"name": "MCR Connect LLC",
 		"address": "625 Strander Blvd BdgD SteA\nTukwilaWA98188",
 		"hours": "M-F 9a-5p",
 		"social": "www.mcrconnect.com",
@@ -2940,7 +3033,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Infosight Software Technologies Inc",
+		"name": "Infosight Software Technologies Inc",
 		"address": "32858 42nd Pl. SW \nFederal WayWA98023",
 		"hours": "M-F 9a-5p",
 		"social": "www.infosightsoftware.com",
@@ -2954,7 +3047,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "RMES Communications, Inc",
+		"name": "RMES Communications, Inc",
 		"address": "1543 Champa Street, Ste 201\nDenverCO80202",
 		"hours": "M-F 9a-5p",
 		"social": "www.rmes.com",
@@ -2968,7 +3061,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Cornerstone Accounting & Business Solutions LLC",
+		"name": "Cornerstone Accounting & Business Solutions LLC",
 		"address": "5207 So. J St. \nTacomaWA98408",
 		"hours": "M-F 9a-5p",
 		"social": "www.cornerstoneabsllc.com",
@@ -2982,7 +3075,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Cross-Spectrum Acoustics LLC",
+		"name": "Cross-Spectrum Acoustics LLC",
 		"address": "PO BOX 90842\nSpringfieldMA01139",
 		"hours": "M-F 9a-5p",
 		"social": "www.csacoustics.com",
@@ -2996,7 +3089,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Savant Consulting Inc",
+		"name": "Savant Consulting Inc",
 		"address": "12 Santa Catrina\nRancho Santa MargaritaCA92688",
 		"hours": "M-F 9a-5p",
 		"social": "www.thinklikeasavant.com",
@@ -3010,7 +3103,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Ergo Synchronous Solutions LLC",
+		"name": "Ergo Synchronous Solutions LLC",
 		"address": "301 Union St, #2513\nSeattleWA98111",
 		"hours": "M-F 9a-5p",
 		"social": "www.ergosynch.com",
@@ -3024,7 +3117,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Coeie Engineering Services, LLC",
+		"name": "Coeie Engineering Services, LLC",
 		"address": "11915 SE 93rd St\nNewcastleWA98056",
 		"hours": "M-F 9a-5p",
 		"social": "coeie-services.com",
@@ -3038,7 +3131,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Mel Dodd Consulting",
+		"name": "Mel Dodd Consulting",
 		"address": "4358 NE 55th St. \nSeattleWA98105",
 		"hours": "M-F 9a-5p",
 		"social": "N/A",
@@ -3052,7 +3145,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "The Watermark Group",
+		"name": "The Watermark Group",
 		"address": "2404 NW 9th Street \nVancouverWA98665",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -3066,7 +3159,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Hybrid Staffing Solutions, LLC",
+		"name": "Hybrid Staffing Solutions, LLC",
 		"address": "918 200th Avenue SE \nSammamishWA98075",
 		"hours": "M-F 9a-5p",
 		"social": "n/a",
@@ -3080,7 +3173,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Devin James Group LLC",
+		"name": "Devin James Group LLC",
 		"address": "P.O.Box 3071\nMemphisTN38173",
 		"hours": "M-F 9a-5p",
 		"social": "www.devinjamesgroup.com",
@@ -3094,7 +3187,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Deep Roots Foods",
+		"name": "Deep Roots Foods",
 		"address": "4570 Avery Lane SE Suite C227\nLaceyWA98503",
 		"hours": "M-F 9a-5p",
 		"social": "www.deeprootsfoods.com",
@@ -3108,7 +3201,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Viliv Inc.",
+		"name": "Viliv Inc.",
 		"address": "204 30th Ave E\nSeattleWA98112",
 		"hours": "M-F 9a-5p",
 		"social": "www.vilivstudios.com",
@@ -3122,7 +3215,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Onit Management Consulting, LLC",
+		"name": "Onit Management Consulting, LLC",
 		"address": "2850 Yancy St SW#121\nSeattleWA98126",
 		"hours": "M-F 9a-5p",
 		"social": "www.onitmc.com",
@@ -3136,7 +3229,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "K2J Environmental LLC",
+		"name": "K2J Environmental LLC",
 		"address": "615 6th Street, #407 #407 \nKirklandWA98033",
 		"hours": "M-F 9a-5p",
 		"social": "www.k2jenvironmental.com",
@@ -3150,7 +3243,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Doc Xpress, Inc",
+		"name": "Doc Xpress, Inc",
 		"address": "918 200th Avenue SE \nSammamishWA98075",
 		"hours": "M-F 9a-5p",
 		"social": "www.townerealty.com",
@@ -3164,7 +3257,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "World Logistics Inc",
+		"name": "World Logistics Inc",
 		"address": "10529 Lakeview Ave. SW, Suite DSuite D\nLakewoodWA98499",
 		"hours": "M-F 9a-5p",
 		"social": "www.worloginc.com",
@@ -3178,7 +3271,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Groundwork Tech, LLC",
+		"name": "Groundwork Tech, LLC",
 		"address": "227 Bellevue Way NE, #489 #489\nBellevueWA98004",
 		"hours": "M-F 9a-5p",
 		"social": "www.groundworktech.com",
@@ -3192,7 +3285,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Rule Seven LLC",
+		"name": "Rule Seven LLC",
 		"address": "18203 Larch way\nLynnwoodWA98037",
 		"hours": "M-F 9a-5p",
 		"social": "www.ruleseven.com",
@@ -3206,7 +3299,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Evergreen Abatement Services LLC",
+		"name": "Evergreen Abatement Services LLC",
 		"address": "PO BOX 292\nLynnwoodWA98046",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -3220,7 +3313,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Editco, Inc",
+		"name": "Editco, Inc",
 		"address": "20015 Emerald Creek Drive\nSanta ClaraCA91351",
 		"hours": "M-F 9a-5p",
 		"social": "www.editco.co",
@@ -3234,7 +3327,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Sharon Y Young LLC",
+		"name": "Sharon Y Young LLC",
 		"address": "4227 South Meridian #C-576\nPuyallupWA98373",
 		"hours": "M-F 9a-5p",
 		"social": "www.counselingwithsharon.com",
@@ -3248,7 +3341,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "HPW Services, LLC",
+		"name": "HPW Services, LLC",
 		"address": "10216 SE 256th Street Suite 103 - #364\nKentWA98030",
 		"hours": "M-F 9a-5p",
 		"social": "hpwservices.com",
@@ -3262,7 +3355,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "NPRA Technologies and Systemic Quality Systems Management",
+		"name": "NPRA Technologies and Systemic Quality Systems Management",
 		"address": "4205 129th Place SEUnit 1\nBellevueWA98006",
 		"hours": "M-F 9a-5p",
 		"social": "www.npratechnologies.com",
@@ -3276,7 +3369,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Olivier, Inc",
+		"name": "Olivier, Inc",
 		"address": "1825 Market Center Blvd. Suite 340\nDallasTX75207",
 		"hours": "M-F 9a-5p",
 		"social": "www.olivier-inc.com",
@@ -3290,7 +3383,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "solutions4community, llc",
+		"name": "solutions4community, llc",
 		"address": "1730 22nd Avenue, Apt 502W \nSeattleWA98122",
 		"hours": "M-F 9a-5p",
 		"social": "www.solutions4community.com",
@@ -3304,7 +3397,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Arthur Jackson CTC Inc.",
+		"name": "Arthur Jackson CTC Inc.",
 		"address": "4708 87th St SW\nMukilteoWA98275",
 		"hours": "M-F 9a-5p",
 		"social": "www.arthurjacksonctc.com",
@@ -3318,7 +3411,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Royal Building Maintenance",
+		"name": "Royal Building Maintenance",
 		"address": "27613 26th Ave. S\nFederal WayWA98003",
 		"hours": "M-F 9a-5p",
 		"social": "N/A",
@@ -3332,7 +3425,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Abdias Calixte",
+		"name": "Abdias Calixte",
 		"address": "4317 NE 66th Ave, #70\nVancouverWA98661",
 		"hours": "M-F 9a-5p",
 		"social": "N/A",
@@ -3346,7 +3439,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Ball & Son Excavation LLC",
+		"name": "Ball & Son Excavation LLC",
 		"address": "2619 186th St. E\nTacomaWA98445",
 		"hours": "M-F 9a-5p",
 		"social": "N/A",
@@ -3360,7 +3453,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Welcome To Living",
+		"name": "Welcome To Living",
 		"address": "2224 Bonair Place SW\nSeattleWA98116",
 		"hours": "M-F 9a-5p",
 		"social": "www.welcometoliving.net",
@@ -3374,7 +3467,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Buckley's Hauling LLC",
+		"name": "Buckley's Hauling LLC",
 		"address": "1771 NW 56th Street\nSeattleWA98107",
 		"hours": "M-F 9a-5p",
 		"social": "N/A",
@@ -3388,7 +3481,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "MBI Construction Services Inc",
+		"name": "MBI Construction Services Inc",
 		"address": "2016 Fruitvale Blvd.\nYakimaWA98902",
 		"hours": "M-F 9a-5p",
 		"social": "www.mbiyakima.com",
@@ -3402,7 +3495,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Wellspoken Interpreting LLC",
+		"name": "Wellspoken Interpreting LLC",
 		"address": "316 Columbia Point Dr.\nRichlandWA99352",
 		"hours": "M-F 9a-5p",
 		"social": "www.wellspokeninterpreting.com",
@@ -3416,7 +3509,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "GW Frost & Associates",
+		"name": "GW Frost & Associates",
 		"address": "PO Box 84685\nSeattleWA98124",
 		"hours": "M-F 9a-5p",
 		"social": "N/A",
@@ -3430,7 +3523,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Grassroots Company Inc",
+		"name": "Grassroots Company Inc",
 		"address": "PO Box 27035\nSeattleWA98165",
 		"hours": "M-F 9a-5p",
 		"social": "www.grassrootslandscapingseattle.com",
@@ -3444,7 +3537,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Crest Creek LLC",
+		"name": "Crest Creek LLC",
 		"address": "9121 Tracyton Blvd NW\nBremertonWA98311",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -3458,7 +3551,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Grace Adult Family Home",
+		"name": "Grace Adult Family Home",
 		"address": "6826 Daffodil Terrace\nFerndaleWA98248",
 		"hours": "M-F 9a-5p",
 		"social": "N/A",
@@ -3472,7 +3565,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Arnold Services",
+		"name": "Arnold Services",
 		"address": "2201 S Melrose Street\nTacomaWA98405",
 		"hours": "M-F 9a-5p",
 		"social": "www.computertrainingservicesnw.com",
@@ -3486,7 +3579,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "XternalSource LLC",
+		"name": "XternalSource LLC",
 		"address": "PO Box 6542\nBellevueWA98008",
 		"hours": "M-F 9a-5p",
 		"social": "www.xternalsource.com",
@@ -3500,7 +3593,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "H25, Inc",
+		"name": "H25, Inc",
 		"address": "18915 84th Ave West\nEdmondsWA98026",
 		"hours": "M-F 9a-5p",
 		"social": "www.h25inc.com",
@@ -3514,7 +3607,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "K & A Communications LLC",
+		"name": "K & A Communications LLC",
 		"address": "PO Box 78376\nSeattleWA98178",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -3528,7 +3621,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Anderson Paint Store LLC",
+		"name": "Anderson Paint Store LLC",
 		"address": "18429 W 8 Mile\nDetroitMI48219",
 		"hours": "M-F 9a-5p",
 		"social": "www.andersonpaintstore.com",
@@ -3542,7 +3635,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Zann & Associates, Inc",
+		"name": "Zann & Associates, Inc",
 		"address": "7752 E. 4th AveSuite 1C\nDenverCO80230",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -3556,7 +3649,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Jimmie Miller",
+		"name": "Jimmie Miller",
 		"address": "2233 Oliver Street\nSaint LouisMO63103",
 		"hours": "M-F 9a-5p",
 		"social": "N/A",
@@ -3570,7 +3663,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "CityNews Ohio Company",
+		"name": "CityNews Ohio Company",
 		"address": "16781 Chagrin Blvd, Ste 283\nClevelandOH44120",
 		"hours": "M-F 9a-5p",
 		"social": "mycitytransportation.com/",
@@ -3584,7 +3677,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "JR Conduit Inc",
+		"name": "JR Conduit Inc",
 		"address": "PO Box 8362\nPortlandOR97207",
 		"hours": "M-F 9a-5p",
 		"social": "www.jrconduit.com",
@@ -3598,7 +3691,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Law Offices of Alesha Stuthers",
+		"name": "Law Offices of Alesha Stuthers",
 		"address": "11900 NE 1st. St., Suite 300\nBellevueWA98005",
 		"hours": "M-F 9a-5p",
 		"social": "www.strutherslawoffice.com",
@@ -3612,7 +3705,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Virtual Business Consultants Resource Center LLC",
+		"name": "Virtual Business Consultants Resource Center LLC",
 		"address": "12707 25th Ave SE\nEverettWA98208",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -3626,7 +3719,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Attention to Detail Painting LLC",
+		"name": "Attention to Detail Painting LLC",
 		"address": "9805 NE 116th St. #7482\nKirklandWA98034",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -3640,7 +3733,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Planet USA LLC",
+		"name": "Planet USA LLC",
 		"address": "430 S. 96th St, #15\nSeattleWA98108",
 		"hours": "M-F 9a-5p",
 		"social": "www.planetusallc.com",
@@ -3654,7 +3747,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "W Eric Collins Insurance Agency Inc",
+		"name": "W Eric Collins Insurance Agency Inc",
 		"address": "7602 Bridgeport Way W, #4B\nLakewoodWA98499",
 		"hours": "M-F 9a-5p",
 		"social": "www.wecollinsinsurance.com",
@@ -3668,7 +3761,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Veronica Davis LLC",
+		"name": "Veronica Davis LLC",
 		"address": "17518 NE 22nd Ct\nRedmondWA98052",
 		"hours": "M-F 9a-5p",
 		"social": "wwwveronicadavis.com",
@@ -3682,7 +3775,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Universal Reliance LLC",
+		"name": "Universal Reliance LLC",
 		"address": "4712 Admiralty Way, #885\nMarina del ReyCA90292",
 		"hours": "M-F 9a-5p",
 		"social": "www.urllc.net",
@@ -3696,7 +3789,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "The Collage Group LLC",
+		"name": "The Collage Group LLC",
 		"address": "6418 Nels St Sw\nOlympiaWA98512",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -3710,7 +3803,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Michael Johnson IP Law",
+		"name": "Michael Johnson IP Law",
 		"address": "16530 162nd Place SE\nRentonWA98058",
 		"hours": "M-F 9a-5p",
 		"social": "www.michaeljohnsoniplaw.com",
@@ -3724,7 +3817,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Transit Safety & Security Solutions Inc",
+		"name": "Transit Safety & Security Solutions Inc",
 		"address": "1600 Glenarm Pl, Suite 304\nDenverCO80202",
 		"hours": "M-F 9a-5p",
 		"social": "www.transitsafety.solutions",
@@ -3738,7 +3831,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Jomatmarej Corp.",
+		"name": "Jomatmarej Corp.",
 		"address": "186 S Monterey Isle\nLongwoodFL32779",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -3752,7 +3845,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Restoration Home Health Services, LLC",
+		"name": "Restoration Home Health Services, LLC",
 		"address": "200 S. 333rd St., Suite 202\nFederal WayWA98003",
 		"hours": "M-F 9a-5p",
 		"social": "www.rhscare.com",
@@ -3766,7 +3859,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Professional Lath and Plaster LLC",
+		"name": "Professional Lath and Plaster LLC",
 		"address": "3820 N. Junaeu St.\nPortlandOR97217",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -3780,7 +3873,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "S3Global Consulting Services LLC",
+		"name": "S3Global Consulting Services LLC",
 		"address": "10532 82nd Ave Court SW\nLakewoodWA98498",
 		"hours": "M-F 9a-5p",
 		"social": "www.s3goglobal.com",
@@ -3794,7 +3887,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "MB Diversity LLC",
+		"name": "MB Diversity LLC",
 		"address": "6523 California Ave SW, B255\nSeattleWA98136",
 		"hours": "M-F 9a-5p",
 		"social": "www.mbdiversity.com",
@@ -3808,7 +3901,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Diverse Community Connectors LLC",
+		"name": "Diverse Community Connectors LLC",
 		"address": "6214 E Lake Sammamish Pkwy, Apt 312\nRedmondWA98052",
 		"hours": "M-F 9a-5p",
 		"social": "www.diversecommunityconnectors.com",
@@ -3822,7 +3915,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Arcana Solutions LLC",
+		"name": "Arcana Solutions LLC",
 		"address": "107 NW 6th St\nRentonWA98057",
 		"hours": "M-F 9a-5p",
 		"social": "www.arcanasolutions.com",
@@ -3836,7 +3929,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Valerie J. Southern-Transportation Consultant LLC",
+		"name": "Valerie J. Southern-Transportation Consultant LLC",
 		"address": "4411 Milroy Way, Suite 9202\nFairfaxVA22030",
 		"hours": "M-F 9a-5p",
 		"social": "www.vjs-consultant.com",
@@ -3850,7 +3943,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "icoreHR",
+		"name": "icoreHR",
 		"address": "707 South Grady Way, Suite 600\nRentonWA98057",
 		"hours": "M-F 9a-5p",
 		"social": "www.icorehr.com",
@@ -3864,7 +3957,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "SDACI Inc",
+		"name": "SDACI Inc",
 		"address": "3011 W. 183rd Street, #377\nHomewoodIL60430",
 		"hours": "M-F 9a-5p",
 		"social": "www.sdaci.com",
@@ -3878,7 +3971,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "SDA Consulting Inc",
+		"name": "SDA Consulting Inc",
 		"address": "3011 W. 183rd. Street, #377\nHomewoodIL60430",
 		"hours": "M-F 9a-5p",
 		"social": "www.sdaci.com",
@@ -3892,7 +3985,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Gila Burton-Curl",
+		"name": "Gila Burton-Curl",
 		"address": "24271 229th Ave. SE\nMaple ValleyWA98038",
 		"hours": "M-F 9a-5p",
 		"social": "http://home.comcast.net/~newpursuit/site/",
@@ -3906,7 +3999,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Solafide Management & Consulting Group, LLC",
+		"name": "Solafide Management & Consulting Group, LLC",
 		"address": "2330 130th Ave NE, Suite C101\nBellevueWA98005",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -3920,7 +4013,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "EPIC Building Detailers, LLC",
+		"name": "EPIC Building Detailers, LLC",
 		"address": "1825 E. Sherman\nTacomaWA98404",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -3934,7 +4027,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Stewart Manhattan Investments Inc",
+		"name": "Stewart Manhattan Investments Inc",
 		"address": "6 Palos Verdes Lane\nPalos Verdes PeninsulaCA90274",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -3948,7 +4041,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Soteria Cadd Services",
+		"name": "Soteria Cadd Services",
 		"address": "10710 SE 256th St., Apt. A101\nKentWA98030",
 		"hours": "M-F 9a-5p",
 		"social": "www.soteria-scs.com",
@@ -3962,7 +4055,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Palladium Holdings LLC",
+		"name": "Palladium Holdings LLC",
 		"address": "8001 Arista Place, Suite 400\nBroomfieldCO80021",
 		"hours": "M-F 9a-5p",
 		"social": "www.palladiumholdingsco.com",
@@ -3976,7 +4069,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "d9squared, LLC",
+		"name": "d9squared, LLC",
 		"address": "3913 Airport Way South\nSeattleWA98108",
 		"hours": "M-F 9a-5p",
 		"social": "www.d9squared.com",
@@ -3990,7 +4083,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Kellen Coleman",
+		"name": "Kellen Coleman",
 		"address": "3333 164th St SW#1613\nLynnwoodWA98087",
 		"hours": "M-F 9a-5p",
 		"social": "www.colemanprfirm.com",
@@ -4004,7 +4097,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Lavaille Lavette Company",
+		"name": "Lavaille Lavette Company",
 		"address": "5318 Weslayan, #154\nHoustonTX77005",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -4018,7 +4111,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "E & K Retail Inc",
+		"name": "E & K Retail Inc",
 		"address": "3704 West 120th Street\nLeawoodKS66209",
 		"hours": "M-F 9a-5p",
 		"social": "",
@@ -4032,7 +4125,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "Global Business Development LLC",
+		"name": "Global Business Development LLC",
 		"address": "9442 S 196th Pl\nRentonWA98055",
 		"hours": "M-F 9a-5p",
 		"social": "www.globalbdllc.com",
@@ -4046,7 +4139,7 @@
 		"status": "A|BO"
 	},
 	{
-		"body": "hydro2geotech",
+		"name": "hydro2geotech",
 		"address": "14033 32nd Ave NE, Apt 206\nSeattleWA98125",
 		"hours": "M-F 9a-5p",
 		"social": "www.hydro2geotech.com",
@@ -4059,4 +4152,4 @@
 		"email": "dummy@dummy.net",
 		"status": "A|BO"
 	}
-]
+];

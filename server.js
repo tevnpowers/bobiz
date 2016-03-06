@@ -25,7 +25,7 @@ if(!mongoose.connection.readyState) {
 // boostrap models
 var models_path = __dirname + '/app/models'
 fs.readdirSync(models_path).forEach(function(file) {
-    logger.info('loading model from: ' + models_path + '/' + file);
+    logger.info('loading model(s) from: ' + models_path + '/' + file);
     if (~file.indexOf('.js')) {
         require(models_path + '/' + file);
     }
