@@ -2,6 +2,12 @@ module.exports = {
   corsAllowOrigin: process.env.CORS_ALLOW_ORIGIN || 'http://localhost:9000',
   apiPrefix: '/api',
   development: {
+    mysql: {
+      host     : 'localhost',
+      user     : process.env.BOBIZ_USER,
+      password : process.env.BOBIZ_PASS,
+      database : 'commonwealth'
+    },
     port: 5008,
     app: {
       name: 'bobiz dev'
