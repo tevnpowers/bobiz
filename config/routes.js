@@ -13,7 +13,7 @@ module.exports = function(app) {
 
   app.get(global.apiPrefix + '/businesses/:id',
     function(req, res) {
-      posts.index.json(req, res);
+      posts.findOne.json(req, res);
     }
   );
 
