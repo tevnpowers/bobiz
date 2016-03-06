@@ -8,8 +8,19 @@ var env = process.env.NODE_ENV || 'development';
 var global = require('./config/config');
 var config = require('./config/config')[env];
 var util = require('./util');
+var mongoose = require('mongoose');
 
 logger.info('environment: ' + env);
+
+// connect mongoose
+if(!mongoose.connection.readyState) {
+  logger.info('connecting to mongo at ' + config.db);
+  mongoose.connect(config.db, function(err) {
+    if (err) throw err;
+    console.log("Connected to Mongo at: " + config.db);
+  });
+}
+
 
 var app = express();
 
@@ -23,7 +34,7 @@ logger.info('allowing origin: ' + JSON.stringify(global.corsAllowOrigin));
 require('./config/routes')(app);
 
 // mysql connection file, comment out if mysql is not set up
-require('./config/mysql.js');
+// require('./config/mysql.js');
 
 app.listen(config.port, function() {
   logger.log('info', 'environment: ' + env);

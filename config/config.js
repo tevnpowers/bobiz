@@ -2,6 +2,7 @@ module.exports = {
   corsAllowOrigin: process.env.CORS_ALLOW_ORIGIN || 'http://localhost:9000',
   apiPrefix: '/api',
   development: {
+    db: 'mongodb://localhost/databasedev',
     mysql: {
       host     : 'us-cdbr-iron-east-03.cleardb.net',
       user     : process.env.BOBIZ_USER,
@@ -26,6 +27,7 @@ module.exports = {
     }
   },
   production: {
+    db: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL,
     port: process.env.PORT || 5000,
     name: 'bobiz',
     mysql: {
