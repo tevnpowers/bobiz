@@ -95,8 +95,9 @@ exports.searchBusinesses = {
             }
             //console.log("found " + bizs)
             var querySet = nameTokens.getUnique();
+            //var queryLength = query.length;
 
-            // Sort by Jaccard similarity w/out normalization (no union)
+            // Sort by wack Jaccard similarity (no union term)
             bizs.sort(function (c1, c2) {
                 var intersection1 = 0;
                 var intersection2 = 0;
@@ -113,6 +114,8 @@ exports.searchBusinesses = {
                     }
                 }
                 //console.log(intersection1);
+                // var totalLength1 = c1.name.length;
+                // var totalLength2 = c2.name.length;
                 return intersection2 - intersection1;
             })
             res.status(200).send(bizs);

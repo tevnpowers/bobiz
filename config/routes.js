@@ -24,7 +24,7 @@ module.exports = function(app) {
     }
   );
 
-  app.get(global.apiPrefix + '/businesses/search/:name',
+  app.get(global.apiPrefix + '/businesses/search/',
     function(req, res) {
       businesses.searchBusinesses.json(req, res);
     }
