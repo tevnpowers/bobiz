@@ -22,4 +22,11 @@ module.exports = function(app) {
       businesses.findBusinessReviews.json(req, res);
     }
   );
+
+  app.get(global.apiPrefix + '/businesses/search/:name',
+    function(req, res) {
+      businesses.searchBusinesses.json(req, res);
+    }
+  );
+
 };

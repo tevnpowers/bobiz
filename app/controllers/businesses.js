@@ -63,3 +63,59 @@ exports.findBusinessReviews = {
     })
   }
 }
+
+
+exports.searchBusinesses = {
+    json: function findOneJson(req,res) {
+        var query = req.params.name;
+        var nameTokens = query.split(" ");
+        var nameRegex = nameTokens.join(".*|.*");
+        nameRegex = ".*" + nameRegex + ".*";
+        console.log(nameRegex);
+        var results = [];
+
+        Array.prototype.getUnique = function(){
+           var u = {}, a = [];
+           for(var i = 0, l = this.length; i < l; ++i){
+              if(u.hasOwnProperty(this[i])) {
+                 continue;
+              }
+              a.push(this[i]);
+              u[this[i]] = 1;
+           }
+           return a;
+        }
+
+        console.log("searching " + query);
+        Business.find({name: new RegExp(nameRegex, "i")}, function(err, bizs)
+        {
+            if(err) {
+                console.log("error:" + err)
+                return res.status(500).send(err)
+            }
+            //console.log("found " + bizs)
+            var querySet = nameTokens.getUnique();
+
+            // Sort by Jaccard similarity w/out normalization (no union)
+            bizs.sort(function (c1, c2) {
+                var intersection1 = 0;
+                var intersection2 = 0;
+                console.log(querySet);
+                for (var i = 0; i < querySet.length; i++) { 
+                    //console.log("uhhh" + new RegExp(".*" + querySet[i] + ".*", "i").test(c1.name))
+                    if (new RegExp(".*" + querySet[i] + ".*", "i").test(c1.name))
+                    {
+                        intersection1++;
+                    }
+                    if (new RegExp(".*" + querySet[i] + ".*", "i").test(c2.name))
+                    {
+                        intersection2++;
+                    }
+                }
+                //console.log(intersection1);
+                return intersection2 - intersection1;
+            })
+            res.status(200).send(bizs);
+        })
+    }
+}
