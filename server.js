@@ -9,6 +9,7 @@ var global = require('./config/config');
 var config = require('./config/config')[env];
 var util = require('./util');
 var mongoose = require('mongoose');
+var fs = require('fs');
 
 logger.info('environment: ' + env);
 
@@ -21,6 +22,14 @@ if(!mongoose.connection.readyState) {
   });
 }
 
+// boostrap models
+var models_path = __dirname + '/app/models'
+fs.readdirSync(models_path).forEach(function(file) {
+    logger.info('loading model from: ' + models_path + '/' + file);
+    if (~file.indexOf('.js')) {
+        require(models_path + '/' + file);
+    }
+});
 
 var app = express();
 

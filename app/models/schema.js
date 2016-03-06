@@ -1,3 +1,6 @@
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+
 var User = new Schema ({
     timestamp: { type: Date, default: Date.now },
     firstname: String,
@@ -22,16 +25,16 @@ var BusinessSchema = new Schema({
     status: String //A = Active, BO = Black Owned, BL = Blacklisted
 });
 
-var ReviewSchema = new Schema({
-    timestamp: { type: Date, default: Date.now },
-    user  : {type: Number, ref: 'User'},
-    business  : {type: Number, ref: 'Business'},
-    tags  : [ Tag ],
-    user  : {type: Number, ref: 'User'},
-    rating: { enum: ['Good','Bad'] }
-})
-
 var TagSchema = new Schema({
     timestamp: { type: Date, default: Date.now },
     description: String
 });
+
+var ReviewSchema = new Schema({
+    timestamp: { type: Date, default: Date.now },
+    user  : {type: Number, ref: 'User'},
+    business  : {type: Number, ref: 'Business'},
+    tags  : [ TagSchema ],
+    user  : {type: Number, ref: 'User'},
+    rating: { enum: ['Good','Bad'] }
+})
