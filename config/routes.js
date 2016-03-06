@@ -1,5 +1,6 @@
 'use strict';
 
+var fs = require('fs');
 var global = require('./config');
 var businesses = require('../app/controllers/businesses');
 // var reviews = require('../app/controllers/reviews');
@@ -28,5 +29,15 @@ module.exports = function(app) {
       businesses.searchBusinesses.json(req, res);
     }
   );
+
+  app.post('/submitbusiness', function(req, res) {
+      console.log(req.body);
+      res.send("Business submission placeholder...");
+  });
+
+  app.post('/createuser', function(req, res) {
+      console.log(req.body);
+      res.send("Create user placeholder...");
+  });
 
 };

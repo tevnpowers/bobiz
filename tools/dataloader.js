@@ -104,11 +104,5 @@ async.series([
     function(cb) {
       loadReviews();
       cb();
-    }
-]);
-
-/*
-var review = {
-            rating: function() { return Math.round(Math.random() * 10) > 5 ? 'Good' : 'Bad'; }
-        }
-*/
+    }]
+);
