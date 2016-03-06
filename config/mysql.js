@@ -1,9 +1,9 @@
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
-  host     : 'mysql://b1391827c26625:92b4493e@us-cdbr-iron-east-03.cleardb.net/heroku_e8f7abf289cece7?reconnect=true',
-  user     : '',
-  password : '',
-  database : 'heroku_e8f7abf289cece7'
+  host     : 'us-cdbr-iron-east-03.cleardb.net',
+  user     : process.env.BOBIZ_USER,
+  password : process.env.BOBIZ_PASS,
+  database : process.env.BOBIZ_DB
 });
 
 connection.connect(function(err) {
