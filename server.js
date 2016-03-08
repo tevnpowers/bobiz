@@ -37,6 +37,7 @@ var app = express();
 // general app configuration
 app.use(util.allowCrossDomain);
 app.use(cookieParser());
+app.use(bodyParser());
 app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname, "public")));
