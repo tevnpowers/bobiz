@@ -67,7 +67,8 @@ exports.findBusinessReviews = {
 
 exports.searchBusinesses = {
     json: function findOneJson(req,res) {
-        var query = req.params.name;
+        console.log('Body' + req.body.name);
+        var query = req.body.name; //req.params.name;
         var nameTokens = query.split(" ");
         var nameRegex = nameTokens.join(".*|.*");
         nameRegex = ".*" + nameRegex + ".*";

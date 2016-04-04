@@ -4,12 +4,19 @@ var mongoose = require('mongoose');
 var global = require('./config');
 var businesses = require('../app/controllers/businesses');
 var Business = mongoose.model('Business');
+var http = require('http');
 
 // var reviews = require('../app/controllers/reviews');
 
 module.exports = function(app) {
+  // respond with "hello world" when a GET request is made to the homepage
+  app.get('/home', function(req, res) {
+    res.sendfile('public/search.html');
+  });
+
   app.get(global.apiPrefix + '/businesses',
     function(req, res) {
+      console.log('hello');
       businesses.index.json(req, res);
     }
   );
@@ -26,9 +33,41 @@ module.exports = function(app) {
     }
   );
 
-  app.get(global.apiPrefix + '/businesses/search/:name',
+  app.post(global.apiPrefix + '/businesses/search',
     function(req, res) {
       businesses.searchBusinesses.json(req, res);
+    }
+  );
+
+  app.get('/businesses/search',
+    function(req, res) {
+      console.log(req.query.name);
+      var post_data = JSON.stringify({ 'name' : req.query.name });
+      var post_options = {
+          port: 5008,
+          path: '/api/businesses/search',
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json',
+              'Content-Length': Buffer.byteLength(post_data)
+          }
+      };
+
+      var post_req = http.request(post_options, function(searchRes) {
+          searchRes.setEncoding('utf8');
+          var data = "";
+          searchRes.on('data', function (chunk) {
+            data += chunk;
+          });
+
+          searchRes.on('end', function() {
+            res.send(data);
+          });
+      });
+
+      // post the data
+      post_req.write(post_data);
+      post_req.end();
     }
   );
 
